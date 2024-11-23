@@ -2,7 +2,7 @@
 def calcular_compra(valor_unitario, numero_itens):
     return valor_unitario * numero_itens
 
-v_u= float(input("Digite o valor unitário do produto:"))
-q_i= int(input("Digite a quantidade do produto:"))
-valor_total= calcular_compra(v_u,q_i)
+valor_unitario= int(input("Digite o valor unitário do produto:"))
+quantidade_itens= int(input("Digite a quantidade do produto:"))
+valor_total= calcular_compra(valor_unitario,quantidade_itens)
 print(f"O valor do Total da Compra é R$ {valor_total:.2f}")
