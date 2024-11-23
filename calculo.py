@@ -4,6 +4,8 @@ def calcular_compra(valor_unitario, numero_itens):
 
 def aplicar_desconto(total_compra, desconto):
     desconto = total_compra *(desconto/100)
+    if (desconto >50):
+        desconto = 50
     return total_compra - desconto
 
 valor_unitario= int(input("Digite o valor unitário do produto:"))
